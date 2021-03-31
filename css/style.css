@@ -1,34 +1,67 @@
-body{
-    position: absolute;
-    width: 1500px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
-    background: #3399CC;
-    border: 24px solid #2B81AC;
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    margin: 0 auto;
+    transition: all 0.1s ease-in;
+    font-family: "Lucida Sans", "Lucida Grande", sans-serif;
     box-sizing: border-box;
+  }
+  body {
+    background-color: #3399cc;
+    border: solid 20px #2b81ac;
+    min-height: 100%;
+  }
+  main {
+    font-size: 0;
+}
+h1 {
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+  li::first-line {
+    color: #f0f8ff;
+  }
+  h1 i {
+    color: #f0f8ff;
+  }
+  i {
+    color: #f0f8ff94;
+    font-size: 25px;
+  }
+.weather_list{
+    margin: 2% 10% 2% 10%;
 }
 ul{
+    border: solid white 2px;
+    line-height: 0;
+    font-size: 0;
+}
+ul li {
+    box-sizing: border-box;
     display: inline-block;
-    margin: 245px 180px;
-    width: 950px;
-    height: 658px;
-    left: 245px;
-    top: 186px;
+    border: solid white 2px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: auto;
+    color: #f0f8ff94;
+  }
+  li p:last-child {
+    font-size: 16px;
+    color: #f0f8ff94;
+  }
+li.lisbon,
+li.san_francisco {
+  width: 50%;
+  padding: 20px;
 }
-.css{
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 33px;
+li.paris, li.belgrade, li.moscow, li.tel_aviv, li.cair,li.new_york, li.new_dehil, li.tokyo{
+    width: 25%;
+    padding: 20px;
 }
-.box1{
-    position: absolute;
-    width: 230px;
-    height: 157px;
-    left: 723px;
-    top: 193px;
-
-    background: #33CCCC;
+li.sydney{
+    width: 100%;
+    padding: 20px;
 }
