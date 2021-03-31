@@ -1,0 +1,34 @@
+body{
+    position: absolute;
+    width: 1500px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #3399CC;
+    border: 24px solid #2B81AC;
+    box-sizing: border-box;
+}
+ul{
+    display: inline-block;
+    margin: 245px 180px;
+    width: 950px;
+    height: 658px;
+    left: 245px;
+    top: 186px;
+}
+.css{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.box1{
+    position: absolute;
+    width: 230px;
+    height: 157px;
+    left: 723px;
+    top: 193px;
+
+    background: #33CCCC;
+}
