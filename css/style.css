@@ -70,7 +70,6 @@ li.sydney{
     padding: 20px;
 }
 .css{
- 
 width: 252px;
 height: 33px;
 left: 245px;
@@ -81,4 +80,38 @@ font-weight: 600;
 font-size: 24px;
 line-height: 33px;
 color: #FFFFFF;
+}
+.lisban{
+  background: #3399CC;
+}
+.paris{
+  background: #33CCCC;
+}
+.belgrade{
+  background: #996699;
+}
+.moscow{
+  
+background: #C24747;
+}
+.tel_aviv{
+  background: #E2674A;
+}
+.cair{
+  background: #FFCC66;
+}
+.new_york{
+background: #99CC99;
+}
+.new_dehil{
+  background: #669999;
+}
+.san_francisco{
+  background: #CC6699;
+}
+.tokyo{
+  background: #339966;
+}
+.sydney{
+  background: #666699;
 }
