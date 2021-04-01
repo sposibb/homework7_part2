@@ -6,19 +6,23 @@
     transition: all 0.1s ease-in;
     font-family: "Lucida Sans", "Lucida Grande", sans-serif;
     box-sizing: border-box;
+    
   }
   body {
     background-color: #3399cc;
     border: solid 20px #2b81ac;
     min-height: 100%;
+    
   }
   main {
     font-size: 0;
+    
 }
 h1 {
     font-size: 30px;
     margin-top: 3%;
     margin-left: 10%;
+    
   }
   li::first-line {
     color: #f0f8ff;
@@ -64,4 +68,17 @@ li.paris, li.belgrade, li.moscow, li.tel_aviv, li.cair,li.new_york, li.new_dehil
 li.sydney{
     width: 100%;
     padding: 20px;
+}
+.css{
+ 
+width: 252px;
+height: 33px;
+left: 245px;
+top: 136px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
 }
