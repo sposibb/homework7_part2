@@ -79,38 +79,37 @@ line-height: 33px;
 color: #FFFFFF;
 text-align: left;
 }
-.lisban{
+.lisban,ul:hover .lisban:hover{
   background: #3399CC;
 }
-.paris{
+.paris,ul:hover .paris:hover{
   background: #33CCCC;
 }
-.belgrade{
+.belgrade,ul:hover .belgrade:hover{
   background: #996699;
 }
-.moscow{
-  
+.moscow,ul:hover .moscow:hover{
 background: #C24747;
 }
-.tel_aviv{
+.tel_aviv,ul:hover .tel_aviv:hover{
   background: #E2674A;
 }
-.cair{
+.cair,ul:hover .cair:hover{
   background: #FFCC66;
 }
-.new_york{
+.new_york,ul:hover .new_york:hover{
 background: #99CC99;
 }
-.new_dehil{
+.new_dehil,ul:hover .new_dehil:hover{
   background: #669999;
 }
-.san_francisco{
+.san_francisco, ul:hover .san_francisco:hover{
   background: #CC6699;
 }
-.tokyo{
+.tokyo,ul:hover .tokyo:hover{
   background: #339966;
 }
-.sydney{
+.sydney,ul:hover .sydney:hover{
   background: #666699;
 }
 h2{
@@ -121,4 +120,7 @@ h2{
   line-height: 25px;
   padding-left: 300px;
   margin-top: -75px;
+}
+ul:hover li {
+  background-color: rgba(255, 255, 255, 0.5);
 }
